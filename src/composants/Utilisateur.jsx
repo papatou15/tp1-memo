@@ -1,18 +1,19 @@
 import './Utilisateur.scss';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
+import {deconnexion} from '../code/utilisateur-modele';
 
-export default function Utilisateur() {
+export default function Utilisateur({localUtilisateur}) {
   return (
     <div className="Utilisateur">
-      <span className="nom">Monsieur Untel</span>
-      <Avatar className="avatar" alt="Le même Monsieur Untel" title="Email de l'utilisateur ici" />
+      <span className="nom">{localUtilisateur.displayName}</span>
+      <Avatar className="avatar" alt={localUtilisateur.displayName} src={localUtilisateur.photoURL} />
       
       <Button 
         variant="outlined"
         size="small"
         className="btn-deconnexion"
-        onClick={() => alert('À compléter')}
+        onClick={deconnexion}
       >
         Déconnexion
       </Button>
