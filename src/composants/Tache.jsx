@@ -1,12 +1,15 @@
 import './Tache.scss';
+import { formaterDate } from '../code/helper';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 
-export default function Tache() {
+export default function Tache({textTache, dateModif}) {
   return (
     <div className="Tache">
-      Basculer
-      <span className="texte">Texte de la tâche</span>
-      <span className="date">(date formatée)</span>
-      Supprimer
+      <CheckCircleIcon />
+      <span className="texte">{textTache}</span>
+      <span className="date">{formaterDate(dateModif.seconds)}</span>
+      <RemoveCircleIcon />
     </div>
   );
 }

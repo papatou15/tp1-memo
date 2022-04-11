@@ -1,4 +1,6 @@
+// Fichier CSS
 import './Appli.scss';
+
 import logo from '../images/memo-logo.png';
 import Controle from './Controle';
 import Taches from './Taches';
@@ -11,6 +13,9 @@ import { observerEtatConnexion } from '../code/utilisateur-modele';
 export default function Appli() {
   // État 'utilisateur'
   const [localUtilisateur, setUtilisateur] = useState(null);
+  
+  // État des 'taches' de l'utilisateur connecté
+  const [taches, setTaches] = useState([]);
 
   useEffect(() => observerEtatConnexion(setUtilisateur), []);
 
@@ -22,7 +27,7 @@ export default function Appli() {
           <img src={logo} className="appli-logo" alt="Memo" />
           <Utilisateur localUtilisateur={localUtilisateur} />
         </header>
-        <Taches />
+        <Taches localUtilisateur={localUtilisateur} taches={taches} setTaches={setTaches}/>
         <Controle />
       </div>
     :
