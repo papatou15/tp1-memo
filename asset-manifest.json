@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tp1-memo/static/css/main.04e11b70.css",
-    "main.js": "/tp1-memo/static/js/main.832b0e5b.js",
-    "index.html": "/tp1-memo/index.html",
-    "main.04e11b70.css.map": "/tp1-memo/static/css/main.04e11b70.css.map",
-    "main.832b0e5b.js.map": "/tp1-memo/static/js/main.832b0e5b.js.map"
+    "main.css": "/papatou15/tp1-memo/tree/gh-pages/static/css/main.04e11b70.css",
+    "main.js": "/papatou15/tp1-memo/tree/gh-pages/static/js/main.9dec17a7.js",
+    "index.html": "/papatou15/tp1-memo/tree/gh-pages/index.html",
+    "main.04e11b70.css.map": "/papatou15/tp1-memo/tree/gh-pages/static/css/main.04e11b70.css.map",
+    "main.9dec17a7.js.map": "/papatou15/tp1-memo/tree/gh-pages/static/js/main.9dec17a7.js.map"
   },
   "entrypoints": [
     "static/css/main.04e11b70.css",
-    "static/js/main.832b0e5b.js"
+    "static/js/main.9dec17a7.js"
   ]
 }
