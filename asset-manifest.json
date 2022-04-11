@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/papatou15/tp1-memo/tree/gh-pages/static/css/main.04e11b70.css",
-    "main.js": "/papatou15/tp1-memo/tree/gh-pages/static/js/main.9dec17a7.js",
-    "index.html": "/papatou15/tp1-memo/tree/gh-pages/index.html",
-    "main.04e11b70.css.map": "/papatou15/tp1-memo/tree/gh-pages/static/css/main.04e11b70.css.map",
-    "main.9dec17a7.js.map": "/papatou15/tp1-memo/tree/gh-pages/static/js/main.9dec17a7.js.map"
+    "main.css": "/papatou15/tp1-memo/static/css/main.04e11b70.css",
+    "main.js": "/papatou15/tp1-memo/static/js/main.9dec17a7.js",
+    "index.html": "/papatou15/tp1-memo/index.html",
+    "main.04e11b70.css.map": "/papatou15/tp1-memo/static/css/main.04e11b70.css.map",
+    "main.9dec17a7.js.map": "/papatou15/tp1-memo/static/js/main.9dec17a7.js.map"
   },
   "entrypoints": [
     "static/css/main.04e11b70.css",
